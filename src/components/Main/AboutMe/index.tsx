@@ -1,6 +1,6 @@
 export function AboutMe() {
   return (
-    <div className="flex justify-center items-center flex-col my-4 ">
+    <div className="flex justify-center items-center flex-col my-4   ">
       <div className="w-full max-w-4xl flex justify-center items-center flex-col gap-2">
         <h2 className="text-3xl font-bold">Sobre Mim</h2>
         <p className="text-md text-center text-neutral-500 font-semibold  ">
