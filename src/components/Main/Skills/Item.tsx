@@ -9,9 +9,9 @@ type ItemProps = {
 
 export function Item({ name, icon: Icon, color }: ItemProps) {
   return (
-    <div className="flex flex-col m-2 justify-center items-center gap-1 shadow-lg shadow-indigo-500 h-56 w-48">
-      <h5 className="tracking-wider">{name}</h5>
-      <Icon size={50} color={color} />
-    </div>
+    <li className="p-4 bg-background rounded-tl-3xl flex flex-col m-2 justify-center items-center gap-3 shadow-md shadow-indigo-500 ">
+      <h5 className="tracking-wider text-md ">{name}</h5>
+      <Icon size={45} color={color} />
+    </li>
   )
 }
